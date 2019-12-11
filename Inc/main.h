@@ -179,6 +179,8 @@ typedef struct {
 #define	FROM_UART	0
 #define	FROM_USB	1
 
+#define	TIM16_BLINK_INACTIVE	16800
+#define	TIM16_BLINK_ACTIVE		TIM16_BLINK_INACTIVE / 4
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

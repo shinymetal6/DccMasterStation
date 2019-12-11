@@ -115,7 +115,10 @@ void packet_callback(void)
 	  {
 		  HAL_TIM_Base_Start_IT(&htim6);
 		  update_semaphore = 0;
+		  htim16.Instance->PSC = TIM16_BLINK_ACTIVE;
 	  }
+	  else
+		  htim16.Instance->PSC = TIM16_BLINK_INACTIVE;
 	  HAL_GPIO_WritePin(ENABLE_1_GPIO_Port, ENABLE_1_Pin,GPIO_PIN_RESET);
 }
 
