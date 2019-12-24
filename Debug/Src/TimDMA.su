@@ -1,0 +1,4 @@
+TimDMA.c:13:13:fast_DMA_SetConfig	24	static
+TimDMA.c:38:19:fast_HAL_DMA_Start_IT	24	static
+TimDMA.c:56:6:PWM_Start_DMA_Tim1	16	static
+TimDMA.c:72:6:tim6_start	4	static

@@ -1,0 +1,6 @@
+DCC_Packets.c:26:6:encode_byte	24	static
+DCC_Packets.c:38:10:encode_throttle	48	static
+DCC_Packets.c:69:6:init_bufs	16	static
+DCC_Packets.c:155:6:insert_reset_packet	8	static
+DCC_Packets.c:166:6:insert_len3_packet	8	static
+DCC_Packets.c:177:6:insert_len4_packet	8	static

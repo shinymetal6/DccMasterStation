@@ -1,0 +1,5 @@
+Parser.c:24:6:one_byte_commands	24	static
+Parser.c:53:6:three_bytes_commands	32	static
+Parser.c:65:6:four_bytes_commands	40	static
+Parser.c:83:6:five_bytes_commands	40	static
+Parser.c:93:6:parser	112	static

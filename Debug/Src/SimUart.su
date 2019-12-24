@@ -1,0 +1,5 @@
+SimUart.c:27:6:uart_tx_buffer	16	static
+SimUart.c:32:6:usb_tx_buffer	16	static
+SimUart.c:37:6:uart_start	8	static
+SimUart.c:43:6:HAL_UART_RxCpltCallback	16	static
+SimUart.c:70:10:USB_UART_RxCpltCallback	4	static

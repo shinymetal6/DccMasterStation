@@ -63,7 +63,7 @@ void PWM_Start_DMA_Tim1(uint32_t *pData, uint16_t Length)
 	htim1.Instance->DIER |= TIM_DMA_CC1;
 	/* Enable the Capture compare channel */
 	TIM_CCxChannelCmd(htim1.Instance, TIM_CHANNEL_1, TIM_CCx_ENABLE);
-	//HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1); //starts PWM on CH1N pin
+	HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1); //starts PWM on CH1N pin
 	htim1.Instance->BDTR|=TIM_BDTR_MOE;
 	/* Enable the Peripheral */
 	//htim1.Instance->CR1|=TIM_CR1_CEN;

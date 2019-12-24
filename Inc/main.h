@@ -61,26 +61,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define USART2_TX_Pin GPIO_PIN_2
-#define USART2_TX_GPIO_Port GPIOA
-#define USART2_RX_Pin GPIO_PIN_3
-#define USART2_RX_GPIO_Port GPIOA
-#define ENABLE_1_Pin GPIO_PIN_5
-#define ENABLE_1_GPIO_Port GPIOA
-#define DEBUG_FLAG_Pin GPIO_PIN_7
+#define SENSE_Pin GPIO_PIN_0
+#define SENSE_GPIO_Port GPIOB
+#define ENABLE_Pin GPIO_PIN_9
+#define ENABLE_GPIO_Port GPIOA
+#define DEBUG_FLAG_Pin GPIO_PIN_10
 #define DEBUG_FLAG_GPIO_Port GPIOA
-#define SENSE_1_Pin GPIO_PIN_0
-#define SENSE_1_GPIO_Port GPIOB
-#define RAILCOM_TX_Pin GPIO_PIN_9
-#define RAILCOM_TX_GPIO_Port GPIOA
-#define RAILCOM_RX_Pin GPIO_PIN_10
-#define RAILCOM_RX_GPIO_Port GPIOA
 #define T_SWDIO_Pin GPIO_PIN_13
 #define T_SWDIO_GPIO_Port GPIOA
 #define T_SWCLK_Pin GPIO_PIN_14
 #define T_SWCLK_GPIO_Port GPIOA
-#define SPI1_SS_Pin GPIO_PIN_6
-#define SPI1_SS_GPIO_Port GPIOB
+#define SENSE_OUT_Pin GPIO_PIN_6
+#define SENSE_OUT_GPIO_Port GPIOB
 #define TIM16_CH1_LED_Pin GPIO_PIN_8
 #define TIM16_CH1_LED_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
